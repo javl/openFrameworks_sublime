@@ -62,3 +62,5 @@ Most of the time when your script won't compile you can scroll back to the top o
 
 The exact colors may depend on the theme you are using.
 To change the keyword you need to install `PackageDev`. You can then change the [openFrameworks-console.TAML-tmLanguage](https://github.com/javl/openFrameworks_sublime/blob/master/openFrameworks-console.YAML-tmLanguage) file and generate the `openFrameworks-console.tmLanguage` file with the `PackageDev: Convert (YAML, JSON, PList) to...` command.
+
+![screenshot](https://github.com/javl/openFrameworks_sublime/blob/master/img/console.png)
