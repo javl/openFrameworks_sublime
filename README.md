@@ -26,8 +26,8 @@ Copy `openFrameworks.sublime-project` to your `/apps/myapps/projectname` folder 
 
 **Note:** `make` is used with the `-j 4` argument which tells it to do four jobs simultaneously: you might want to change this number to reflect the number of available cores of your system.
 
-###ofmake###
-Commandline alias that simply builds your script and runs it. I mostly use this when I'm browsing old or downloaded projects and quickly want to build them from the console. Add this to your `~/.bashrc` or `~/.zshrc` file.
+##ofmake##
+Commandline alias that simply builds your script and runs it in one go. I mostly use this when I'm browsing old or downloaded projects and quickly want to build them from the console. Add this to your `~/.bashrc` or `~/.zshrc` file.
 
 `alias ofmake="make -j 4 && make RunRelease"`
 
@@ -50,7 +50,7 @@ Store the file at `/usr/local/bin/ofgetmake` to be able to access it from anywhe
 
 ## openFrameworks-console.tmLanguage ##
 ##### Colored console output #####
-While building or running from within Sublime, all output is shown in its output panel. To get some meaningful color in this output you can copy [openFrameworks-console.tmLanguage](https://github.com/javl/openframeworks_sublime/openFrameworks-console.tmLanguage) to your Sublime config folder. My file is located at `~/.config/sublime-text-3/Packages/User/openFrameworks-console.tmLanguage` folder. If you use a different location, make sure to change the path in your `openFrameworks.sublime-project` file.
+While building or running from within Sublime, all output is shown in its output panel. To get some meaningful color in this output you can copy [openFrameworks-console.tmLanguage](https://github.com/javl/openFrameworks_sublime/blob/master/openFrameworks-console.tmLanguage) to your Sublime config folder. My file is located at `~/.config/sublime-text-3/Packages/User/openFrameworks-console.tmLanguage` folder. If you use a different location, make sure to change the path in your `openFrameworks.sublime-project` file.
 
 The colors are very simple; basically when a certain keyword is found, the entire line of output will be colored:
 - `warning`: orange,
@@ -61,4 +61,4 @@ The colors are very simple; basically when a certain keyword is found, the entir
 Most of the time when your script won't compile you can scroll back to the top of the output and scroll down until you find the first red line: this will often be the main error causing the problem.
 
 The exact colors may depend on the theme you are using.
-To change the keyword you need to install `PackageDev`. You can then change the [openFrameworks-console.TAML-tmLanguage](https://github.com/javl/openFrameworks-console.YAML-tmLanguage) file and generate the `openFrameworks-console.tmLanguage` file with the `PackageDev: Convert (YAML, JSON, PList) to...` command.
+To change the keyword you need to install `PackageDev`. You can then change the [openFrameworks-console.TAML-tmLanguage](https://github.com/javl/openFrameworks_sublime/blob/master/openFrameworks-console.YAML-tmLanguage) file and generate the `openFrameworks-console.tmLanguage` file with the `PackageDev: Convert (YAML, JSON, PList) to...` command.
