@@ -16,8 +16,8 @@
 	[
 		{
 			"path": ".",
-			"folder_exclude_patterns": ["obj"],
-			"file_exclude_patterns": ["*.qbs"]
+			// "folder_exclude_patterns": ["obj"],
+			// "file_exclude_patterns": ["*.qbs"]
 		}
 	],
 	"settings":
