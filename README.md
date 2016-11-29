@@ -1,6 +1,6 @@
 #openFrameworks Sublime#
 
-This is a collection of small tools I use when working with openFrameworks on the commandline and inside Sublime Text (on Debian). Some parts (like paths) might be specific to my setup but should be easy enough to adapt. I'm open to any suggestions that help make them more general.
+This is a collection of small tools I use when working with openFrameworks on the commandline and inside Sublime Text (on Debian). Some parts (like paths) might be specific to my setup but should be easy enough to adapt. I'm open to any suggestions that help make them more general. I'm not 100% sure the color highlighting works with every Sublime Text theme, but would like to make sure it does.
 
 My basic flow when working on a project is as follows;
 
