@@ -7,7 +7,7 @@ My basic flow when working on a project is as follows;
 1. Run the openFrameworks `projectGenerator` to create a new project.
 2. Copy the `openFrameworks.sublime-project` file into the project folder (either using a file explorer, or by running `ofgetmake` on the commandline, see below).
 3. Open the new project in Sublime Text.
-4. Hit `ctrl+b` to build the sketch (select `make and run` if asked what profile to use).
+4. Hit `ctrl+b` to build the sketch.
 
 Below you'll find a breakdown of the files and tools I use for this.
 
