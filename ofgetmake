@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cp -n ~/Documents/of_v0.9.8_linux64_release/apps/myApps/emptyExample/Makefile .
+cp -n ~/Documents/of_v0.9.8_linux64_release/apps/myApps/emptyExample/config.make .
+cp -n ~/Documents/of_v0.9.8_linux64_release/apps/myApps/emptyExample/addons.make .
+cp -n ~/Documents/of_v0.9.8_linux64_release/apps/myApps/emptyExample/openFrameworks.sublime-project .

@@ -1,0 +1,28 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"make -j 4 && make RunRelease"
+			],
+			"name": "make and run",
+			"shell": true,
+			"syntax": "Packages/User/openFrameworks-console.tmLanguage",
+			"working_dir": "${project_path}"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["obj"],
+			"file_exclude_patterns": ["*.qbs"]
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4,
+		"translate_tabs_to_spaces": false
+	}
+}

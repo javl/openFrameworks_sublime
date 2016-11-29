@@ -1,0 +1,16 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+# fileTypes: []
+name: openFrameworks-console
+uuid: 081a4528-cedd-431a-95aa-7c971a937a26
+patterns:
+- {include: '#keywords'}
+repository:
+  keywords:
+    patterns:
+    - {match: ".*warning", name: variable.parameter.c++}
+    - {match: ".*(error|Segmentation fault|failed)", name: keyword.control.c++}
+    - {match: ".*notice.*", name: string.quoted.double.c}
+    - {match: (succeeded|.*finished.*), name: entity.name.function.c++}
+scopeName: source.openFrameworks-console
+
