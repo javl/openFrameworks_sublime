@@ -13,7 +13,7 @@ Below you'll find a breakdown of the files and tools I use for this.
 
 ##openFrameworks.sublime-project##
 ##### Sublime Text project file#####
-This file contains the configuration needed to compile an openFrameworks script from within Sublime and to add error highlighting to the console output (see [openframeworks-consoletmlanguage](#openframeworks-consoletmlanguage) for more info).
+This file contains the configuration needed to compile an openFrameworks script from within Sublime and to add error highlighting to the console output (see [openframeworks-console.tmlanguage](#openframeworks-consoletmlanguage) for more info).
 
 The file contains:
 
