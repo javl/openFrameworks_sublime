@@ -27,8 +27,8 @@ The file contains:
 
 1. The command to build and run the project: `make -j 4 && make RunRelease`.
 2. The path to the syntax file used for color highlighting in the console.
-3. Settings to use tabs that are four spaces wide.
-4. Commented lines for hiding certain files/directories from the sidebar for easy reference.
+3. Settings to use tabs that are four spaces wide (just my preference).
+4. Commented lines for hiding certain files/directories from the sidebar for reference, in case you want to hide some.
 
 Copy `openFrameworks.sublime-project` to your `/apps/myapps/projectname` folder and open it in Sublime. You can now use `ctrl+b` to build and run your project. The first time Sublime might ask you what build profile to use; select `make and run`.
 
