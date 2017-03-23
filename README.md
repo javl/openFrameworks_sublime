@@ -9,6 +9,14 @@ My basic flow when working on a project is as follows;
 3. Open the new project in Sublime Text.
 4. Hit `ctrl+b` to build the sketch.
 
+So the actual commands I use to make, prepare and compile a new project are:
+1. `cd openframeworks`
+2. `./projectGenerator-linux64/projectGenerator`
+3. `cd apps/myapps/newProjects`
+4. `ofgetmake`
+5. `sublime openframeworks.sublime-project`
+6. `ctrl + b` in Sublime to start compiling
+
 Below you'll find a breakdown of the files and tools I use for this.
 
 ##openFrameworks.sublime-project##
