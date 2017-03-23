@@ -1,4 +1,4 @@
-#openFrameworks Sublime#
+# openFrameworks Sublime #
 
 This is a collection of small tools I use when working with openFrameworks on the commandline and inside Sublime Text (on Debian). Some parts (like paths) might be specific to my setup but should be easy enough to adapt. I'm open to any suggestions that help make them more general. I'm not 100% sure the color highlighting works with every Sublime Text theme, but would like to make sure it does.
 
@@ -19,8 +19,8 @@ So the actual commands I use to make, prepare and compile a new project are:
 
 Below you'll find a breakdown of the files and tools I use for this.
 
-##openFrameworks.sublime-project##
-##### Sublime Text project file#####
+## openFrameworks.sublime-project ##
+##### Sublime Text project file #####
 This file contains the configuration needed to compile an openFrameworks script from within Sublime and to add error highlighting to the console output (see [openframeworks-console.tmlanguage](#openframeworks-consoletmlanguage) for more info).
 
 The file contains:
@@ -42,7 +42,7 @@ Commandline alias that simply builds your script and runs it in one go. I mostly
 **Note:** `make` is used with the `-j 4` argument which tells it to do four jobs simultaneously: you might want to change this number to reflect the number of available cores of your system.
 
 
-##ofgetmake##
+## ofgetmake ##
 Commandline script to quickly copy the makefile and config files from the `emptyExample` project into your current working directory. If you copy the `openFrameworks.sublime-project` file into the `emptyExample` folder, this file will also get copied so you can create a complete set of files with just one command.
 
 Especially useful when you've just cloned the repository of an openFrameworks script that doesn't contain these files and you want to quickly build and run the project. If the folder already contains these files (like `addons.make` file) they will not be overwritten, so it is safe to always run this after cloning. You can quickly download and test a repo using only four commands:
