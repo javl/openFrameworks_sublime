@@ -71,5 +71,5 @@ The colors are very simple; basically when a certain keyword is found, the entir
 Most of the time when your script won't compile you can go back to the top of the output and scroll down until you hit the first red line: 99% of the time, this line shows the actual error you need to fix..
 
 The exact colors may depend on the theme you are using (I'm using `Monokai (SL).tmTheme`).
-To change the keyword you need to install `PackageDev`. You can then change the [openFrameworks-console.TAML-tmLanguage](https://github.com/javl/openFrameworks_sublime/blob/master/openFrameworks-console.YAML-tmLanguage) file and generate the `openFrameworks-console.tmLanguage` file with the `PackageDev: Convert (YAML, JSON, PList) to...` command.
+To change the keywords or colors, you need to install `PackageDev`. You can then change the [openFrameworks-console.TAML-tmLanguage](https://github.com/javl/openFrameworks_sublime/blob/master/openFrameworks-console.YAML-tmLanguage) file and generate the `openFrameworks-console.tmLanguage` file with the `PackageDev: Convert (YAML, JSON, PList) to...` command.
 
