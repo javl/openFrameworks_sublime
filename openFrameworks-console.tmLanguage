@@ -19,13 +19,13 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>.*warning</string>
+					<string>.*[^W]warning</string>
 					<key>name</key>
 					<string>variable.parameter.c++</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>.*(error|Segmentation fault|failed)</string>
+					<string>.*([^W]error|Segmentation fault|failed)</string>
 					<key>name</key>
 					<string>keyword.control.c++</string>
 				</dict>
